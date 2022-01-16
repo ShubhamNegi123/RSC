@@ -121,6 +121,9 @@ header .social-icons ul li a i {
   background-size: cover;
 }
 
+.about, .machinary, .project-intalllation {
+  margin-top: 50px;
+}
 .about .about-heading, .about .machinary-heading, .about .project-intalllation-heading, .machinary .about-heading, .machinary .machinary-heading, .machinary .project-intalllation-heading, .project-intalllation .about-heading, .project-intalllation .machinary-heading, .project-intalllation .project-intalllation-heading {
   margin: 20px 0px;
 }
@@ -141,7 +144,7 @@ header .social-icons ul li a i {
   height: 2px;
   background-color: red;
 }
-.about .about-content p, .about .machinary-content p, .about .project-intalllation-content p, .machinary .about-content p, .machinary .machinary-content p, .machinary .project-intalllation-content p, .project-intalllation .about-content p, .project-intalllation .machinary-content p, .project-intalllation .project-intalllation-content p {
+.about .about-content p, .machinary .about-content p, .project-intalllation .about-content p {
   padding-top: 20px;
   color: #5d4537;
   text-align: justify;
@@ -150,7 +153,31 @@ header .social-icons ul li a i {
   overflow: hidden;
   text-align: justify;
 }
-.about .about-content a:hover, .about .machinary-content a:hover, .about .project-intalllation-content a:hover, .machinary .about-content a:hover, .machinary .machinary-content a:hover, .machinary .project-intalllation-content a:hover, .project-intalllation .about-content a:hover, .project-intalllation .machinary-content a:hover, .project-intalllation .project-intalllation-content a:hover {
+.about .about-content a:hover, .machinary .about-content a:hover, .project-intalllation .about-content a:hover {
+  text-decoration: none;
+}
+.about .machinary-content p, .about .project-intalllation-content p, .machinary .machinary-content p, .machinary .project-intalllation-content p, .project-intalllation .machinary-content p, .project-intalllation .project-intalllation-content p {
+  padding-top: 20px;
+  color: #5d4537;
+  text-align: justify;
+  height: 205px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: justify;
+}
+.about .machinary-content a:hover, .about .project-intalllation-content a:hover, .machinary .machinary-content a:hover, .machinary .project-intalllation-content a:hover, .project-intalllation .machinary-content a:hover, .project-intalllation .project-intalllation-content a:hover {
+  text-decoration: none;
+}
+.about .project-intalllation-content p, .machinary .project-intalllation-content p, .project-intalllation .project-intalllation-content p {
+  padding-top: 20px;
+  color: #5d4537;
+  text-align: justify;
+  height: 350px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: justify;
+}
+.about .project-intalllation-content a:hover, .machinary .project-intalllation-content a:hover, .project-intalllation .project-intalllation-content a:hover {
   text-decoration: none;
 }
 .about .about-img, .about .project-intalllation-img, .about .machinary-img, .machinary .about-img, .machinary .project-intalllation-img, .machinary .machinary-img, .project-intalllation .about-img, .project-intalllation .project-intalllation-img, .project-intalllation .machinary-img {

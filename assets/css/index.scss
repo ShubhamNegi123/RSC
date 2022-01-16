@@ -150,6 +150,7 @@ header{
 // header ends here
  
 .about,.machinary,.project-intalllation{
+    margin-top: 50px;
     // border-bottom: 1px solid #000;
     .about-heading,.machinary-heading,.project-intalllation-heading{
         margin: 20px 0px;
@@ -171,12 +172,44 @@ header{
             }
         }
     }
-    .about-content,.machinary-content,.project-intalllation-content{
+    .about-content{
         p{
             padding-top: 20px;
             color: $text-primary-color;
             text-align: justify;
             height: 260px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-align: justify;
+        }  
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }     
+    }
+    .machinary-content,.project-intalllation-content{
+        p{
+            padding-top: 20px;
+            color: $text-primary-color;
+            text-align: justify;
+            height: 205px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-align: justify;
+        }  
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }     
+    }
+    .project-intalllation-content{
+        p{
+            padding-top: 20px;
+            color: $text-primary-color;
+            text-align: justify;
+            height: 350px;
             text-overflow: ellipsis;
             overflow: hidden;
             text-align: justify;
